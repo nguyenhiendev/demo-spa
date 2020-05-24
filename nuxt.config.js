@@ -1,3 +1,8 @@
+const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
+    router: {
+        base: '/project-spa/'
+    }
+} : {}
 export default {
     mode: "universal",
     /*
@@ -24,6 +29,7 @@ export default {
     /*
      ** Global CSS
      */
+    ...routerBase,
     css: [
         "@/assets/css/main.css",
         "@/assets/css/main.scss",
