@@ -1,8 +1,3 @@
-const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
-    router: {
-        base: '/project-spa/'
-    }
-} : {}
 export default {
     mode: "universal",
     /*
@@ -29,7 +24,6 @@ export default {
     /*
      ** Global CSS
      */
-    ...routerBase,
     css: [
         "@/assets/css/main.css",
         "@/assets/css/main.scss",
@@ -48,10 +42,13 @@ export default {
     /*
      ** Nuxt.js modules
      */
-    modules: ["bootstrap-vue/nuxt", 'nuxt-fontawesome'],
+    modules: ["bootstrap-vue/nuxt", "nuxt-fontawesome"],
     /*
      ** Build configuration
      */
+    router: {
+        base: "/project-spa/"
+    },
     build: {
         /*
          ** You can extend webpack config here
