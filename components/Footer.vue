@@ -10,19 +10,19 @@
           <nav class="foo-nav">
             <ul>
               <li>
-                <a href="/">Home</a>
+                <a href="/project-spa/">Home</a>
               </li>
               <li>
-                <a href="/about">About</a>
+                <a href="/project-spa/about">About</a>
               </li>
               <li>
-                <a href="/feature">Feature</a>
+                <a href="/project-spa/feature">Feature</a>
               </li>
               <li>
-                <a href="/service">Service</a>
+                <a href="/project-spa/service">Service</a>
               </li>
               <li>
-                <a href="/contact">Contact</a>
+                <a href="/project-spa/contact">Contact</a>
               </li>
             </ul>
           </nav>
