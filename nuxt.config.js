@@ -1,3 +1,8 @@
+const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
+    router: {
+        base: '/project-spa/'
+    }
+} : {}
 export default {
     mode: "universal",
     /*
@@ -46,9 +51,7 @@ export default {
     /*
      ** Build configuration
      */
-    router: {
-        base: "/project-spa/"
-    },
+    ...routerBase,
     build: {
         /*
          ** You can extend webpack config here
