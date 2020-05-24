@@ -4,7 +4,7 @@
       <b-row>
         <b-col md="12" class="text-center">
           <a href="#" class="logo foo-logo">
-            <img src="@/assets/images/butterfly.png" alt />
+            <img src="../assets/images/butterfly.png" alt />
             <p>Spa</p>
           </a>
           <nav class="foo-nav">
