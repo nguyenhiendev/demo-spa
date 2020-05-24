@@ -4,7 +4,7 @@
       <b-row class="align-items-end">
         <b-col md="3">
           <a href class="logo">
-            <img src="~/assets/images/butterfly.png" />
+            <img src="../assets/images/butterfly.png" />
             <p>Spa</p>
           </a>
         </b-col>
