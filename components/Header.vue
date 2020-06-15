@@ -141,11 +141,19 @@ export default {};
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
+  .container {
+    margin: 0;
+  }
   .mobile-menu {
     display: none;
   }
   .col-md-3 {
     flex: 0 0 15%;
+    padding-top:10px;
+  }
+  .col-md-9 {
+    width: 70%;
+    padding: 0;
   }
   .row {
     display: flex;
@@ -156,11 +164,11 @@ export default {};
       display: block;
       max-width: 106px;
       img {
-        width: 60px;
+        width: 50px;
       }
       p {
         color: #1e2528;
-        font-size: 40px;
+        font-size: 30px;
         line-height: 60px;
         font-family: URW Chancery L, cursive;
         font-weight: 500;

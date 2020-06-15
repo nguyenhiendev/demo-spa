@@ -58,7 +58,7 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
   .pointer-event {
     text-shadow: #fff9f8;
   }
@@ -113,14 +113,14 @@ export default {};
       position: relative;
       text-align: center;
       img {
-        margin: 0 auto 45px;
-        width: 59px;
+        margin: 30px;
+        width: 30px;
       }
       p {
         color: #263a41;
-        font-size: 18px;
+        font-size: 13px;
         font-weight: 400;
-        line-height: 35px;
+        line-height: 25px;
         font-family: "Rufina", serif;
       }
     }
@@ -128,11 +128,11 @@ export default {};
       img {
         border-radius: 50%;
         margin-bottom: 22px;
-        height: 76px;
-        width: 76px;
+        height: 40px;
+        width: 40px;
       }
       p {
-        font-size: 22px;
+        font-size: 16px;
         margin-bottom: 0;
         color: #263a41;
         font-family: "Rufina", serif;
@@ -140,7 +140,7 @@ export default {};
         span {
           display: inline-block;
           font-family: "Roboto", sans-serif;
-          font-size: 15px;
+          font-size: 13px;
           font-weight: 300;
         }
       }

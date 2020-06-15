@@ -65,8 +65,7 @@ export default {
       }
     }
     .appointment-form {
-      width: 320px;
-      height: 350px;
+      width: 100%;
       background-color: #fff9f8;
       form {
         input {

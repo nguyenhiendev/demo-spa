@@ -125,7 +125,7 @@ export default {};
 
     .sec-title {
       color: #1e2528;
-      font-size: 42px;
+      font-size: 30px;
       margin-bottom: 32px;
     }
     p {
@@ -147,15 +147,15 @@ export default {};
     .btn {
       background-color: #30383b;
       margin-bottom: 30px;
-      padding: 15px;
+      padding: 13px;
       border-radius: 50px;
       color: #fff;
       display: inline-block;
-      font-size: 16px;
+      font-size: 13px;
       font-weight: 500;
-      line-height: 0.8;
+      line-height: 0.5;
       text-transform: uppercase;
-      min-width: 170px;
+      width: 100%;
       border-color: #fff;
     }
     &:hover {

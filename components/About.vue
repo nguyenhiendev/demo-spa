@@ -85,13 +85,13 @@ export default {};
   .about {
     text-align: center;
     .flower-1 {
-      left: 16%;
-      max-width: 160px;
+      left: 8%;
+      max-width: 100px;
       position: absolute;
     }
     .flower-2 {
-      right: 135px;
-      max-width: 80px;
+      right: 100px;
+      max-width: 50px;
       position: absolute;
     }
     .sec-heading {
@@ -100,13 +100,13 @@ export default {};
       text-align: center;
       margin-left: 50px;
       img {
-        max-width: 84px;
+        width: 15%;
         margin: 0 auto 40px;
       }
       .tagline {
         color: #888;
         display: block;
-        font-size: 20px;
+        font-size: 15px;
         font-weight: 400;
         line-height: 0.8;
         text-transform: uppercase;
@@ -114,7 +114,7 @@ export default {};
       }
       .sec-title {
         color: #1e2528;
-        font-size: 42px;
+        font-size: 30px;
         margin-bottom: 32px;
         font-family: "Rufina", serif;
         font-weight: 700;
@@ -128,12 +128,12 @@ export default {};
       background-color: #ff817e;
       color: #fff;
       display: inline-block;
-      font-size: 16px;
+      font-size: 13px;
       font-weight: 500;
       line-height: 0.8;
       text-transform: uppercase;
-      min-width: 170px;
-      padding: 20px 15px;
+      width: 30%;
+      padding: 15px 10px;
     }
     .btn-round {
       border-radius: 50px;

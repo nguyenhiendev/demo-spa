@@ -127,13 +127,13 @@ export default {};
     max-width: 109px;
     img {
       display: block;
-      width: 60px;
+      width: 50px;
       height: auto;
       margin: 0 auto;
     }
     p {
       color: #1e2528;
-      font-size: 40px;
+      font-size: 30px;
       line-height: 60px;
       font-family: URW Chancery L, cursive;
       font-weight: 500;
@@ -151,7 +151,7 @@ export default {};
         a {
           color: #263a41;
           display: block;
-          font-size: 14px;
+          font-size: 10px;
           font-weight: 700;
           text-transform: uppercase;
           padding: 0 20px;

@@ -89,7 +89,7 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
   .sec-heading {
     margin-bottom: 70px;
     position: relative;
@@ -105,8 +105,8 @@ export default {};
     width: 100%;
     padding-bottom: 15px;
     img {
-      width: 289px;
-      height: 349px;
+      width: 100%;
+
     }
   }
   .mems-details {
@@ -172,7 +172,7 @@ export default {};
     text-align: center;
     .sec-title {
       color: #1e2528;
-      font-size: 42px;
+      font-size: 30px;
       margin-bottom: 32px;
     }
   }

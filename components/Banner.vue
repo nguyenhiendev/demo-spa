@@ -89,14 +89,14 @@ export default {};
     }
     h2 {
       color: #1e2528;
-      font-size: 30px;
+      font-size: 23px;
       line-height: 75px;
       margin-bottom: 25px;
     }
     p {
       color: #555;
       margin-bottom: 50px;
-      margin-right: 50px;
+      margin-right: 135px;
     }
   }
 }
