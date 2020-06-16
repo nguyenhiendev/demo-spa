@@ -1,5 +1,5 @@
 <template>
-  <section class="about">
+  <section class="about" data-aos="fade-up" data-aos-duration="2000">
     <img src="@/assets/images/rose.png" alt class="flower-1" />
     <img src="@/assets/images/jasmine.png" alt class="flower-2" />
     <b-container>

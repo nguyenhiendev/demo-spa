@@ -1,9 +1,9 @@
 <template>
-  <section class="banner">
+  <section class="banner" data-aos="fade-up" data-aos-duration="2000">
     <div class="spa-img">
       <img src="@/assets/images/spa.png" alt />
     </div>
-    <b-container>
+    <b-container >
       <b-row>
         <b-col lg="6" md="9">
           <div class="banner-content">

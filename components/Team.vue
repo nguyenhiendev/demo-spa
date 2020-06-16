@@ -1,5 +1,5 @@
 <template>
-  <section class="team">
+  <section class="team" data-aos="fade-up" data-aos-duration="2000">
     <b-container>
       <b-row>
         <b-col lg="8" md="10" class="m-auto">

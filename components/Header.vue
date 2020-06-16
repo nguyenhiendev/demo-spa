@@ -1,6 +1,6 @@
 <template>
   <div class="header">
-    <b-container>
+    <b-container >
       <b-row class="align-items-end">
         <b-col md="3">
           <a href class="logo">

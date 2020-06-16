@@ -1,5 +1,5 @@
 <template>
-  <section class="testimonial bg-lightred">
+  <section class="testimonial bg-lightred" data-aos="fade-up" data-aos-duration="2000">
     <b-container>
       <b-row>
         <b-col lg="10" md="12" class="m-auto">

@@ -1,8 +1,11 @@
-const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
-    router: {
-        base: '/project-spa/'
-    }
-} : {}
+const routerBase =
+    process.env.DEPLOY_ENV === "GH_PAGES" ?
+    {
+        router: {
+            base: "/project-spa/"
+        }
+    } :
+    {};
 export default {
     mode: "universal",
     /*
@@ -34,12 +37,29 @@ export default {
         "@/assets/css/main.scss",
         "bootstrap/dist/css/bootstrap.css",
         "bootstrap-vue/dist/bootstrap-vue.css",
-        "@fortawesome/fontawesome-svg-core/styles.css"
+        "@fortawesome/fontawesome-svg-core/styles.css",
+        "aos/dist/aos.css"
     ],
     /*
      ** Plugins to load before mounting the App
      */
-    plugins: ["~/plugins/bootstrap-vue.js", "~/plugins/fontawesome.js"],
+    plugins: [{
+            src: "@/plugins/bootstrap-vue.js",
+            ssr: true
+        },
+        {
+            src: "@/plugins/fontawesome.js",
+            ssr: true
+        },
+        {
+            src: "@/plugins/aos.js",
+            ssr: false
+        },
+        {
+            src: "@/plugins/EasyGoTop.js",
+            ssr: false
+        }
+    ],
     /*
      ** Nuxt.js dev-modules
      */
@@ -56,7 +76,7 @@ export default {
         extend(config, { isClient }) {
             // Extend only webpack config for client-bundle
             if (isClient) {
-                config.devtool = 'source-map'
+                config.devtool = "source-map";
             }
         }
     }

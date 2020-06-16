@@ -1,5 +1,5 @@
 <template>
-  <section class="appointment">
+  <section class="appointment" data-aos="fade-up" data-aos-duration="2000">
     <div class="appointment-wrap">
       <figure>
         <img src="@/assets/images/image11.jpg" alt />

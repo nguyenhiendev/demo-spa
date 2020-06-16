@@ -1,5 +1,5 @@
 <template>
-  <footer class="footer">
+  <footer class="footer" data-aos="fade-up" data-aos-duration="2000">
     <b-container>
       <b-row>
         <b-col md="12" class="text-center">

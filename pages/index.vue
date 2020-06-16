@@ -30,6 +30,9 @@
     <!-- Footer section start -->
     <Footer />
     <!-- Footer section end -->
+    <client-only>
+      <easy-go-top />
+    </client-only>
   </div>
 </template>
 
@@ -61,7 +64,13 @@ export default {
 </script>
 
 <style lang="scss">
-@media  (min-device-width: 320px) and (max-device-width: 480px) {
+#easy-go-top {
+  border-radius: 5px !important;
+  box-shadow: none !important;
+  background-color: #ff363c !important;
+}
+@media (min-device-width: 320px) and (max-device-width: 480px) {
+
   .carousel-caption {
     height: 100px;
   }
@@ -69,7 +78,7 @@ export default {
     height: 770px;
   }
 }
-@media  (max-width: 1024px) {
+@media (max-width: 1024px) {
   body {
     width: 67.5rem;
   }

@@ -1,5 +1,5 @@
 <template>
-  <b-row class="service">
+  <b-row class="service" data-aos="fade-up" data-aos-duration="2000">
     <b-col md="4" lg="3" class="col-service">
       <div class="hovereffect">
         <img src="@/assets/images/image1.jpg" class="img-responsive" alt />
