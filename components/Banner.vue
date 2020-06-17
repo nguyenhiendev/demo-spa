@@ -1,5 +1,5 @@
 <template>
-  <section class="banner" data-aos="fade-up" data-aos-duration="2000">
+  <section class="banner">
     <div class="spa-img">
       <img src="@/assets/images/spa.png" alt />
     </div>
