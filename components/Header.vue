@@ -35,19 +35,19 @@
             <b-collapse id="collapse-1" class="mt-2">
               <ul>
                 <li>
-                  <a href="/">Home</a>
+                  <a href="/project-spa/">Home</a>
                 </li>
                 <li>
-                  <a href="/about">About</a>
+                  <a href="/project-spa/about">About</a>
                 </li>
                 <li>
-                  <a href="/feature">feature</a>
+                  <a href="/project-spa/feature">feature</a>
                 </li>
                 <li>
-                  <a href="/service">service</a>
+                  <a href="/project-spa/service">service</a>
                 </li>
                 <li>
-                  <a href="/contact">Contact</a>
+                  <a href="/project-spa/contact">Contact</a>
                 </li>
               </ul>
             </b-collapse>
